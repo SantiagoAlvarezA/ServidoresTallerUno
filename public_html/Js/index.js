@@ -1,8 +1,10 @@
 $(document).ready(function () {
     show();
 
+    console.log("holamundos") 
     $("#save_user").on("click", function () {
-        registerUser();       
+        registerUser();  
+        console.log("holamundo")   
 
     });
 
